@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  margin-top: 150px;
+}
+
+.turn{
+  display: flex;
+  justify-content: center;
+}
+.square {
+  background: #e1d7d7;
+  float: left;
+  font-size: 24px;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.square:hover{
+  background: #949292;
+}
+
+.board-row {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  margin-top: -32px;
+}
+
+
